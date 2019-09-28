@@ -12,6 +12,7 @@ def calculate_percentage(recieved_marks):
         return (recieved_marks / GRAND_TOTAL ) * 100
 
 if __name__ == '__main__':
+    # Changes in B branch
     recieved_marks = get_receieved_marks()
     perc = calculate_percentage(recieved_marks)
 
